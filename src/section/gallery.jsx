@@ -162,39 +162,22 @@ const Gallery= function() {
                             <div className="col-lg-8">
                                 <div className="row g-4">
                                     <div className="col-lg-12 item">
-                                        <img src="./img/single-gallery/pf-2-1.jpg" alt="galleryimage" className="img-fluid"/>
-                                    </div>
-                                    <div className="col-lg-12 item">
-                                        <img src="./img/single-gallery/pf-2-2.jpg" alt="galleryimage" className="img-fluid"/>
-                                    </div>
-                                    <div className="col-lg-6 item">
-                                        <img src="./img/single-gallery/pf-2-3.jpg" alt="galleryimage" className="img-fluid"/>
-                                    </div>
-                                    <div className="col-lg-12 item">
-                                        <img src="./img/single-gallery/pf-2-4.jpg" alt="galleryimage" className="img-fluid"/>
-                                    </div>
-                                    <div className="col-lg-6 item">
-                                        <img src="./img/single-gallery/pf-2-5.jpg" alt="galleryimage" className="img-fluid"/>
-                                    </div>
-                                    <div className="col-lg-6 item">
-                                        <img src="./img/single-gallery/pf-2-6.jpg" alt="galleryimage" className="img-fluid"/>
+                                        <img src="./img/gallery/wealth_wizard.PNG" alt="galleryimage" className="img-fluid"/>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-lg-4 de_project-info">
-                                <h3>Interior Design Website</h3>
-                                <p>Duis ad adipisicing id id in duis nisi qui veniam esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis commodo. Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam duis dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor elit dolor aliquip dolore enim excepteur.</p>
+                                <h1>Wealth Wizard</h1>
+                                <h3>Expense Tracker</h3>
+                                <p>Built using Django, React, and MySQL. It helps users manage their finances effectively by tracking expenses, budgeting, and monitoring their progress towards achieving their financial goals. The app’s intuitive interface provides a user-friendly experience, making it easy to navigate and manage finances effectively.</p>
                                
                                 <div className="de_project-details">
                                     <div className="d-field">
-                                        <i className="fa fa-user-o"></i>Client: <span>Envato</span>
+                                        <i className="fa fa-file-text-o"></i>Type: <span>Web Application</span>
                                     </div>
                                     <div className="d-field">
-                                        <i className="fa fa-file-text-o"></i>Type: <span>Branding</span>
-                                    </div>
-                                    <div className="d-field">
-                                        <i className="fa fa-calendar-o"></i>Year: <span>2020</span>
+                                        <i className="fa fa-calendar-o"></i>Year: <span>2023</span>
                                     </div>
                                     <div className="d-field">
                                         <i className="fa fa-external-link"></i>Preview: <span><a href="https://www.envato.com" target="_blank" rel="noreferrer">www.envato.com</a></span>
@@ -212,7 +195,7 @@ const Gallery= function() {
                   </div>
                   )}
 
-                {/* lightboxvideo */}
+                {/* lightbox3 */}
                 {lighbx2 && ( 
                   <div className="LightboxGal">
                     <div className="closeGal">
@@ -222,20 +205,18 @@ const Gallery= function() {
                       <div className="mainLightbox container">
                         <div className="row g-5">
                             <div className="col-lg-8">
-                                <video className="pop" controls autoPlay loop>
-                                  <source src="./video/local-video-2.mp4" type="video/mp4"/>
-                                  Your browser does not support the video tag.
-                                </video>
+                                <div className="row g-4">
+                                    <div className="col-lg-12 item">
+                                        <img src="./img/gallery/timebox.PNG" alt="galleryimage" className="img-fluid"/>
+                                    </div>
+                                </div>
                             </div>
-
                             <div className="col-lg-4 de_project-info">
-                                <h3>Self Hosted Video</h3>
-                                <p>Duis ad adipisicing id id in duis nisi qui veniam esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis commodo. Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam duis dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor elit dolor aliquip dolore enim excepteur.</p>
+                                <h1>Time Box</h1>
+                                <h3>Task Manager</h3>
+                                <p>As part of a dynamic team of 3 skilled software engineers, I led the development of the front-end of a cutting-edge application utilizing React, Django, and PostgreSQL technologies. Following best practices for component design and state management, we crafted a user-friendly interface, providing a seamless user experience. I also implemented the back-end using Django, setting up a RESTful API to enable seamless data communication with the front-end and ensure smooth application functionality.</p>
                                
                                 <div className="de_project-details">
-                                    <div className="d-field">
-                                        <i className="fa fa-user-o"></i>Client: <span>Envato</span>
-                                    </div>
                                     <div className="d-field">
                                         <i className="fa fa-file-text-o"></i>Type: <span>Branding</span>
                                     </div>
