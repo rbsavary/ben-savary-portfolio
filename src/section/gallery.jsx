@@ -67,46 +67,10 @@ const Gallery= function() {
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Archi Interior Design</h3>
-                                <h5 className="d-tag">website</h5>
+                                <h3>Habitude</h3>
+                                <h5 className="d-tag">Personal Development Blog</h5>
                             </div>
-                            <img src="./img/gallery/1.jpg" alt="gallery"/>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick1}
-                        data-aos="fade-up"
-                        data-aos-once="true"
-                        > 
-                        <div className="card-image-1">
-                            <div className="d-text">
-                                <h3>Self Hosted Video</h3>
-                                <h5 className="d-tag">website</h5>
-                            </div>
-                            <img src="./img/gallery/2.jpg" alt="gallery"/>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick2}
-                        data-aos="fade-up"
-                        data-aos-once="true"
-                        >
-                        <div className="card-image-1">
-                            <div className="d-text">
-                                <h3>Justica Lawyer</h3>
-                                <h5 className="d-tag">website</h5>
-                            </div>
-                            <img src="./img/gallery/3.jpg" alt="gallery"/>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick}
-                        data-aos="fade-up"
-                        data-aos-once="true"
-                        >
-                        <div className="card-image-1">
-                            <div className="d-text">
-                                <h3>Bluetec App</h3>
-                                <h5 className="d-tag">website</h5>
-                            </div>
-                            <img src="./img/gallery/4.jpg" alt="gallery"/>
+                            <img src="./img/gallery/habitude_about.PNG" alt="gallery"/>
                         </div>
                     </div>
                     <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick1}
@@ -115,10 +79,10 @@ const Gallery= function() {
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Uhost Hosting</h3>
-                                <h5 className="d-tag">website</h5>
+                                <h3>Wealth Wizard</h3>
+                                <h5 className="d-tag">Expense Tracker</h5>
                             </div>
-                            <img src="./img/gallery/5.jpg" alt="gallery"/>
+                            <img src="./img/gallery/wealth_wizard.PNG" alt="gallery"/>
                         </div>
                     </div>
                     <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick2}
@@ -127,10 +91,10 @@ const Gallery= function() {
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Bolo Creative</h3>
-                                <h5 className="d-tag">website</h5>
+                                <h3>Time Box</h3>
+                                <h5 className="d-tag">Task Manager</h5>
                             </div>
-                            <img src="./img/gallery/6.jpg" alt="gallery"/>
+                            <img src="./img/gallery/timebox.PNG" alt="gallery"/>
                         </div>
                     </div>
                   </Masonry>
@@ -145,22 +109,30 @@ const Gallery= function() {
                       <div className="mainLightbox container">
                         <div className="row g-5">
                             <div className="col-lg-8">
-                                <img src="./img/gallery-big/1.jpg" alt="" className="img-fluid"/>
+                                <div className="row g-4">
+                                    <div className="col-lg-12 item">
+                                        <img src="./img/gallery/habitude_about.PNG" alt="galleryimage" className="img-fluid"/>
+                                    </div>
+                                    <div className="col-lg-12 item">
+                                        <img src="./img/gallery/habitude_add.PNG" alt="galleryimage" className="img-fluid"/>
+                                    </div>
+                                    <div className="col-lg-12 item">
+                                        <img src="./img/gallery/habitude_contact.PNG" alt="galleryimage" className="img-fluid"/>
+                                    </div>
+                                </div>
                             </div>
 
                             <div className="col-lg-4 de_project-info">
-                                <h3>Interior Design Website</h3>
-                                <p>Duis ad adipisicing id id in duis nisi qui veniam esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis commodo. Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam duis dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor elit dolor aliquip dolore enim excepteur.</p>
+                                <h1>Habitude</h1>
+                                <h3>Personal Development Blog</h3>
+                                <p>As a member of a dynamic team of three skilled software engineers, I participated in a week-long sprint to develop a full-stack application using the advanced MERN stack (MongoDB, Express, React.js, Node.js). Our application delivers an exceptional user experience, boasting comprehensive CRUD (create, read, update, and delete) operations.</p>
                                
                                 <div className="de_project-details">
                                     <div className="d-field">
-                                        <i className="fa fa-user-o"></i>Client: <span>Envato</span>
+                                        <i className="fa fa-file-text-o"></i>Type: <span>Blog</span>
                                     </div>
                                     <div className="d-field">
-                                        <i className="fa fa-file-text-o"></i>Type: <span>Branding</span>
-                                    </div>
-                                    <div className="d-field">
-                                        <i className="fa fa-calendar-o"></i>Year: <span>2020</span>
+                                        <i className="fa fa-calendar-o"></i>Year: <span>2023</span>
                                     </div>
                                     <div className="d-field">
                                         <i className="fa fa-external-link"></i>Preview: <span><a href="https://www.envato.com" target="_blank" rel="noreferrer">www.envato.com</a></span>
@@ -192,7 +164,7 @@ const Gallery= function() {
                                     <div className="col-lg-12 item">
                                         <img src="./img/single-gallery/pf-2-1.jpg" alt="galleryimage" className="img-fluid"/>
                                     </div>
-                                    <div className="col-lg-6 item">
+                                    <div className="col-lg-12 item">
                                         <img src="./img/single-gallery/pf-2-2.jpg" alt="galleryimage" className="img-fluid"/>
                                     </div>
                                     <div className="col-lg-6 item">

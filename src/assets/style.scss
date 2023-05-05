@@ -541,8 +541,8 @@ blockquote.q-big .d-big {
   padding: 0;
   img{
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 400px;
+    object-fit: fill;
   }
 }
 .de_modal {

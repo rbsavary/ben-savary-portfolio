@@ -6,7 +6,6 @@ import About from '../section/about';
 import Blockquote from '../section/blockquote';
 import Whatido from '../section/whatido';
 import Gallery from '../section/gallery';
-import Resume from '../section/resume';
 import Contact from '../section/contact';
 import Footer from '../section/footer';
 import Preloader from "../layout/Preloader";
