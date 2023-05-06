@@ -69,9 +69,7 @@ const whatido = () => {
                 </div>
                 <div className="text-center p-5">
                 <p>Download my resume here</p>
-                <button href id='resume' className="btn-main">
-                                                Download
-                                            </button>     
+                <a href="ben-savary-software-engineer" download id="resume"><button className="btn-main">Download</button></a>   
                 </div>
             </div>
         </div>

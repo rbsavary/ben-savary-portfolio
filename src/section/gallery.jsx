@@ -135,14 +135,13 @@ const Gallery= function() {
                                         <i className="fa fa-calendar-o"></i>Year: <span>2023</span>
                                     </div>
                                     <div className="d-field">
-                                        <i className="fa fa-external-link"></i>Preview: <span><a href="https://www.envato.com" target="_blank" rel="noreferrer">www.envato.com</a></span>
+                                        <i className="fa fa-external-link"></i>Live: <span><a href="https://habitude.herokuapp.com/" target="_blank" rel="noreferrer">habitude.herokuapp.com</a></span>
+                                    </div>
+                                    <div className="d-field">
+                                        <i className="fa fa-external-link"></i>GitHub: <span><a href="https://github.com/rbsavary/habitude-backend" target="_blank" rel="noreferrer">github.com</a></span>
                                     </div>
                                 </div>
                                 <div className="spacer-30"></div>
-                                <blockquote>
-                                    "Very well done theme. Versatile, extremely well coded, and gorgeous. That's a great combo. Highly recommended."
-                                    <span>John Archi</span>
-                                </blockquote>
                             </div>
                         </div>
                       </div>
@@ -218,10 +217,10 @@ const Gallery= function() {
                                
                                 <div className="de_project-details">
                                     <div className="d-field">
-                                        <i className="fa fa-file-text-o"></i>Type: <span>Branding</span>
+                                        <i className="fa fa-file-text-o"></i>Type: <span>Web Application</span>
                                     </div>
                                     <div className="d-field">
-                                        <i className="fa fa-calendar-o"></i>Year: <span>2020</span>
+                                        <i className="fa fa-calendar-o"></i>Year: <span>2023</span>
                                     </div>
                                     <div className="d-field">
                                         <i className="fa fa-external-link"></i>Preview: <span><a href="https://www.envato.com" target="_blank" rel="noreferrer">www.envato.com</a></span>
