@@ -179,7 +179,7 @@ const Gallery= function() {
                                         <i className="fa fa-calendar-o"></i>Year: <span>2023</span>
                                     </div>
                                     <div className="d-field">
-                                        <i className="fa fa-external-link"></i>Preview: <span><a href="https://www.envato.com" target="_blank" rel="noreferrer">www.envato.com</a></span>
+                                        <i className="fa fa-external-link"></i>GitHub: <span><a href="https://github.com/rbsavary/wealth_wizard" target="_blank" rel="noreferrer">github.com</a></span>
                                     </div>
                                 </div>
                                 <div className="spacer-30"></div>
