@@ -183,10 +183,6 @@ const Gallery= function() {
                                     </div>
                                 </div>
                                 <div className="spacer-30"></div>
-                                <blockquote>
-                                    "Very well done theme. Versatile, extremely well coded, and gorgeous. That's a great combo. Highly recommended."
-                                    <span>John Archi</span>
-                                </blockquote>
                             </div>
                         </div>
                       </div>
@@ -223,7 +219,7 @@ const Gallery= function() {
                                         <i className="fa fa-calendar-o"></i>Year: <span>2023</span>
                                     </div>
                                     <div className="d-field">
-                                        <i className="fa fa-external-link"></i>Preview: <span><a href="https://www.envato.com" target="_blank" rel="noreferrer">www.envato.com</a></span>
+                                        <i className="fa fa-external-link"></i>GitHub: <span><a href="https://github.com/rmzimmerman98/task-manager-backend" target="_blank" rel="noreferrer">github.com</a></span>
                                     </div>
                                 </div>
                                 <div className="spacer-30"></div>
