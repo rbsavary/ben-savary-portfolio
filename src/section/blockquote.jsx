@@ -4,7 +4,7 @@ import AOS from 'aos';
 AOS.init();
 
 
-const image1 ="./img/background/2.jpg";
+const image1 ="./img/background/8ka70Wx.jpeg";
 
 const Mblockquote = () => {
     return(

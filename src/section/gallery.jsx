@@ -55,10 +55,19 @@ const Gallery= function() {
             <GlobalStyles/>
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <h2>Portfolio</h2>
+                        <h2>Projects</h2>
                         <div className="space-border"></div>
                     </div>
                 </div>
+                <div className="col-md-8 pb-5 text-center m-auto"
+	            	data-aos="fade-up"
+                    data-aos-delay="60"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                    data-aos-once="true"
+	            	>
+	            	<p>Here you will find my most recent and notable projects, showcasing my skills and expertise in various areas such as software engineering, web development, and design. Each project is a reflection of my passion for creative problem solving and my commitment to delivering high quality work that meets the needs of my clients. As a software engineer, I have experience working with a variety of programming languages and frameworks to build scalable and efficient applications that deliver real value to end users.</p>  
+	            </div>
                  <Masonry
                     className={"row my-gallery-class"} elementType={"div"}>
                     <div className="col-lg-4 image-element-class de_modal de_modal" onClick={handleBtnClick}
@@ -110,10 +119,10 @@ const Gallery= function() {
                         <div className="row g-5">
                             <div className="col-lg-8">
                                 <div className="row g-4">
-                                    <div className="col-lg-12 item">
+                                    <div className="col-lg-12 pb-3 item">
                                         <img src="./img/gallery/habitude_about.PNG" alt="galleryimage" className="img-fluid"/>
                                     </div>
-                                    <div className="col-lg-12 item">
+                                    <div className="col-lg-12 pb-3 item">
                                         <img src="./img/gallery/habitude_add.PNG" alt="galleryimage" className="img-fluid"/>
                                     </div>
                                     <div className="col-lg-12 item">
@@ -129,7 +138,7 @@ const Gallery= function() {
                                
                                 <div className="de_project-details">
                                     <div className="d-field">
-                                        <i className="fa fa-file-text-o"></i>Type: <span>Blog</span>
+                                        <i className="fa fa-file-text-o"></i>Type: <span>Web Application</span>
                                     </div>
                                     <div className="d-field">
                                         <i className="fa fa-calendar-o"></i>Year: <span>2023</span>
@@ -222,11 +231,7 @@ const Gallery= function() {
                                         <i className="fa fa-external-link"></i>GitHub: <span><a href="https://github.com/rmzimmerman98/task-manager-backend" target="_blank" rel="noreferrer">github.com</a></span>
                                     </div>
                                 </div>
-                                <div className="spacer-30"></div>
-                                <blockquote>
-                                    "Very well done theme. Versatile, extremely well coded, and gorgeous. That's a great combo. Highly recommended."
-                                    <span>John Archi</span>
-                                </blockquote>
+                                <div className="spacer-30"></div>Gi
                             </div>
                         </div>
                       </div>
