@@ -30,7 +30,7 @@ const whatido = () => {
                         <div className="d-inner">
                             <div className="text">
                                 <h3>Develop</h3>
-                                Create efficient and scalable software customized to meet user needs utilizing programming skills and knowledge of software development tools.
+                                <p>Create efficient and scalable software customized to meet user needs utilizing programming skills and knowledge of software development tools.</p>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ const whatido = () => {
                         <div className="d-inner">
                             <div className="text">
                                 <h3>Innovate</h3>
-                                Leverage latest technologies and industry trends to develop innovative software solutions to solve complex problems and set new standards.
+                                <p>Leverage latest technologies and industry trends to develop innovative software solutions to solve complex problems and set new standards.</p>
                             </div>
                         </div>
                     </div>
@@ -62,14 +62,15 @@ const whatido = () => {
                         <div className="d-inner">
                             <div className="text">
                                 <h3>Optimize</h3>
-                                Optimize software performance and usability through analytical problem-solving and software architecture expertise.
+                                <p>Optimize software performance and usability through analytical problem-solving and software architecture expertise.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="text-center pt-5">
                 <p>Download my resume here</p>
-                <a href="ben-savary-software-engineer" download id="resume"><button className="btn-main">Download</button></a>   
+                <a href="ben-savary-software-engineer.docx" download id="resume"><button className="btn-main">Download</button></a>   
                 </div>
             </div>
         </div>
