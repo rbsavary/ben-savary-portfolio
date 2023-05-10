@@ -16,14 +16,14 @@ const hero = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <h3 className=""
+                        <h2 className=""
                             data-aos="fade-up"
                             data-aos-delay="0"
                             data-aos-duration="1000"
                             data-aos-easing="ease"
                             data-aos-once="true"
                             >Hi, I'm Ben
-                        </h3>
+                        </h2>
                         <div className="spacer-20"></div>
                         <div className="h1_big"
                             data-aos="fade-up"
