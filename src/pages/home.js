@@ -6,7 +6,6 @@ import About from '../section/about';
 import Blockquote from '../section/blockquote';
 import Whatido from '../section/whatido';
 import Gallery from '../section/gallery';
-import Contact from '../section/contact';
 import Footer from '../section/footer';
 import Preloader from "../layout/Preloader";
 import ScrollToTopBtn from '../layout/ScrollToTop';
@@ -63,7 +62,6 @@ function home() {
       </section>
 
       <section id="contact" className="pb-0">
-        <Contact/>
         <Footer/>
       </section>
 
