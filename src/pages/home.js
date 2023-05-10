@@ -48,12 +48,12 @@ function home() {
       {/* ABOUT */}
       <section id="about" className="pb-0">
         <About/>
-        <Blockquote/>
       </section>
 
       {/* What I DO */}
       <section id="whatido">
         <Whatido/>
+        <Blockquote/>
       </section>
 
       {/* Gallery */}
